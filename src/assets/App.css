@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&family=Dhurjati&family=IBM+Plex+Mono:ital@1&family=Skranji&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+  font-family: "Chakra Petch";
+  font-weight: bolder;
+}
+
+.homeWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('./images/c.jpg');
+  font-style: italic;
+  font-weight: 900;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.ricon {
+  height: 2rem;
+  width: 2rem;
+  display: inline-block !important;
+  align-content: center;
+  color: rgb(0, 0, 255);
+}
+
+.headd {
+  text-align: center;
+  color: rgb(5, 250, 17);
+  font-style: italic;
+  display: block;
+
+  margin: 0 1rem;
+  font-family: 'Russo One', sans-serif;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.micon {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block !important;
+  align-content: center;
+
+}
+
+.minfo {
+  display: inline-block !important;
+  align-content: center;
+  margin: 1rem;
+
+}
+
+.divtem {
+  margin-left: 20%;
+}
+
+.alldiv {
+  display: block !important;
+}
+
+.serachbar {
+  display: inline-block !important;
+}
+
+.disx {
+  font-weight: bolder;
+  text-decoration: underline;
+
+}
+
+.weather-icon {
+  width: 120px;
+  height: 120px;
+  margin: 0;
+  display: block;
+}
+
+.icon-block {
+  display: inline-flex;
+  padding: 30px;
+}
+
+.icon-block>li {
+  background-color: #9c9999b7;
+  margin-right: 10px;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.weatherSection {
+  display: block;
+  border-radius: 25px;
+  box-shadow: 4px 6px 6px 7px rgb(0 0 0 / 10%);
+  color: #000000;
+  margin: 20px;
+  height: max-content;
+  background: rgba(0, 0, 0, 0.1);
+  border: solid 3px #ffffff85;
+  padding: 0;
+}
+
+.ccard {
+  display: inline-block;
+}
+
+.leftWrap {
+  display: inline-flex !important;
+  margin: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 25px;
+  width: 300px;
+  transition: transform .3s ease;
+  transform: translateZ(0) scale(1.02) perspective(1000px);
+  background: #d1cece57;
+  box-shadow: -1px 1px 9px 14px rgba(0, 0, 0, 0.877);
+}
+
+img {
+  size: 30px;
+}
+
+.rightSide {
+  color: #000;
+  position: relative;
+  float: left;
+  height: 100%;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+
+.stateMenu {
+  outline: none;
+  width: 90%;
+  color: rgb(5, 250, 17);
+  background-color: #000;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  box-shadow: 0 0 30px -5px #3495f09c;
+  cursor: pointer;
+  transition: transform .2s ease;
+  transition: transform .2s ease, -webkit-transform .2s ease;
+}
+
+.stat1 {
+  width: 5rem;
+  margin-left: 35px;
+
+}
+
+
+.title {
+  font-weight: 700;
+}
+
+.cardWrap {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  display: inline-block !important;
+}
+
+.cardList {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.cardList::after,
+.cardList::before {
+  content: '';
+  overflow: hidden;
+  clear: both;
+  display: table;
+}
+
+.cardList>li {
+  float: left;
+  padding: 15px;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.day-icon {
+  display: block;
+  height: 40px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.day-name {
+  display: block;
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.day-temp {
+  display: block;
+  text-align: center;
+  margin: 10px 0 0;
+  font-weight: 700;
+}
+
+.cardList>li.active {
+  background: #fff;
+  border-radius: 10px;
+}
+
+.cardList>li:hover {
+  background: #fff;
+  border-radius: 10px;
+  transform: scale(1.1);
+  box-shadow: 0 0 40px -5px #0003;
+}
+
+.dateDay,
+.locationName {
+  display: block;
+}
+
+.locationName {
+  margin-top: 10px;
+}
+
+.weatherTemp {
+  margin: 0;
+  font-weight: 700;
+  font-size: 4em;
+}
+
+
+.icond {
+  height: 2rem;
+  width: 2rem;
+  padding-left: 15px;
+
+}
+
+.iconreact {
+  margin-left: 25%;
+  height: 5rem;
+  color: rgb(255, 255, 255);
+  width: 5rem;
+  display: inline-block !important;
+  align-content: center;
+}
+
+/* Media query for screens smaller than 700px */
+@media only screen and (max-width: 700px) {
+
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  .homeWrap {
+    height: 100%;
+    padding: 40px 10px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+
+  .topContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .leftWrap {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 0;
+    text-align: center;
+  }
+
+
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./images/c.jpg') center no-repeat;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+}
