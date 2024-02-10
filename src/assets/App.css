@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&family=Dhurjati&family=IBM+Plex+Mono:ital@1&family=Skranji&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 * {
-  font-family: "Chakra Petch";
-  font-weight: bolder;
+  font-family: 'Poppins', sans-serif !important;
+  
+}
+
+body{
+  background-image: url(./images/bg.jpg);
 }
 
 .homeWrap {
@@ -12,13 +14,8 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('./images/c.jpg');
   font-style: italic;
   font-weight: 900;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .ricon {
@@ -26,17 +23,14 @@
   width: 2rem;
   display: inline-block !important;
   align-content: center;
-  color: rgb(0, 0, 255);
+  color: #0B60B0;
 }
 
 .headd {
   text-align: center;
-  color: rgb(5, 250, 17);
-  font-style: italic;
+  color: #0B60B0;
   display: block;
-
   margin: 0 1rem;
-  font-family: 'Russo One', sans-serif;
   font-size: 3rem;
   text-decoration: underline;
 }
@@ -46,8 +40,9 @@
   width: 1.5rem;
   display: inline-block !important;
   align-content: center;
-
+  color: #0B60B0 !important;
 }
+
 
 .minfo {
   display: inline-block !important;
@@ -70,7 +65,7 @@
 
 .disx {
   font-weight: bolder;
-  text-decoration: underline;
+  text-decoration: none;
 
 }
 
@@ -87,8 +82,9 @@
 }
 
 .icon-block>li {
-  background-color: #9c9999b7;
+  background: #ffffff1e;
   margin-right: 10px;
+  text-decoration: none!important;
   border-radius: 20px;
   padding: 5px 10px;
 }
@@ -112,6 +108,7 @@
 .leftWrap {
   display: inline-flex !important;
   margin: 30px;
+  color: #F0EDCF;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
@@ -119,7 +116,7 @@
   width: 300px;
   transition: transform .3s ease;
   transform: translateZ(0) scale(1.02) perspective(1000px);
-  background: #d1cece57;
+  background: #ffffff1e;
   box-shadow: -1px 1px 9px 14px rgba(0, 0, 0, 0.877);
 }
 
@@ -139,7 +136,7 @@ img {
 .stateMenu {
   outline: none;
   width: 90%;
-  color: rgb(5, 250, 17);
+  color: #0B60B0;
   background-color: #000;
   box-sizing: border-box;
   border: none;
@@ -147,7 +144,7 @@ img {
   padding: 10px;
   margin-bottom: 10px;
   font-weight: 700;
-  box-shadow: 0 0 30px -5px #3495f09c;
+  box-shadow: 0 0 30px -10px #40A2D8;
   cursor: pointer;
   transition: transform .2s ease;
   transition: transform .2s ease, -webkit-transform .2s ease;
@@ -165,7 +162,8 @@ img {
 }
 
 .cardWrap {
-  background: rgba(0, 0, 0, 0.2);
+  color: #F0EDCF !important; ;
+  background-color: #000 !important;
   border-radius: 15px;
   margin-bottom: 25px;
   margin-right: 10px;
@@ -200,6 +198,12 @@ img {
   margin: 0 auto;
 }
 
+
+button:hover {
+  background-color: #40A2D8 !important;
+  color: #F0EDCF !important;
+}
+
 .day-name {
   display: block;
   margin: 10px 0 0;
@@ -214,12 +218,13 @@ img {
 }
 
 .cardList>li.active {
-  background: #fff;
+  
+  background-color: #000 !important;
   border-radius: 10px;
 }
 
 .cardList>li:hover {
-  background: #fff;
+  background-color: #000 !important;
   border-radius: 10px;
   transform: scale(1.1);
   box-shadow: 0 0 40px -5px #0003;
@@ -251,7 +256,7 @@ img {
 .iconreact {
   margin-left: 25%;
   height: 5rem;
-  color: rgb(255, 255, 255);
+  color: #F0EDCF;
   width: 5rem;
   display: inline-block !important;
   align-content: center;
@@ -303,7 +308,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('./images/c.jpg') center no-repeat;
+    background: rgba(0, 0, 0, 0.5);
     z-index: -1;
     pointer-events: none;
   }

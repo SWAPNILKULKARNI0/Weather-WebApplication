@@ -33,12 +33,13 @@ const MainWeather = ({ weatherData }) => {
                         <BsFillCalendarDateFill className="micon" />
                         <h2 className="minfo">{new Date().toLocaleDateString('en-US')}</h2>
                     </div>
+                    <Icon desc={weatherData.weather[0].main} />
                     <div className="alldiv">
                         <HiChevronDoubleRight className="micon icond" />
                         <h2 className="minfo">{weatherData.weather[0].main}</h2>
                         <HiChevronDoubleLeft className="micon icond" />
                     </div>
-                    <Icon desc={weatherData.weather[0].main} />
+                    
 
                     <div className="alldiv divtem">
                         <FaTemperatureHigh className="micon" />
