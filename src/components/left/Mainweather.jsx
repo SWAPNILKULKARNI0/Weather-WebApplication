@@ -43,7 +43,7 @@ const MainWeather = ({ weatherData }) => {
 
                     <div className="alldiv divtem">
                         <FaTemperatureHigh className="micon" />
-                        <h1 className="minfo">{weatherData.main.temp.toFixed()}<sup>O</sup>C</h1>
+                        <h1 className="minfo">{weatherData.main.temp.toFixed()}<sup>O</sup>F</h1>
                     </div>
 
                 </div>
@@ -74,7 +74,7 @@ const MainWeather = ({ weatherData }) => {
                         </li>
                         <li >
                             <RiTempHotLine className="micon" />
-                            <h3 className="minfo">{weatherData.main.feels_like.toFixed()}<sup>O</sup>C</h3>
+                            <h3 className="minfo">{weatherData.main.feels_like.toFixed()}<sup>O</sup>F</h3>
                             <span className="day-name">
                                 <h2 className="disx">Feels like</h2>
                             </span>
